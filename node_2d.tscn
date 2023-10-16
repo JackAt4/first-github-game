@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://b64cu6hmxcq7t"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6mxau"]
+font_size = 101
+font_color = Color(0.494118, 0.65098, 0.811765, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 266.0
+offset_top = 249.0
+offset_right = 907.0
+offset_bottom = 390.0
+text = "Testing Lable"
+label_settings = SubResource("LabelSettings_6mxau")
